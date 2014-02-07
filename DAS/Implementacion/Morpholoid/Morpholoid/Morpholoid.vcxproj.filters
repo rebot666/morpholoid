@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{f73e9254-189e-41a0-8fc1-cd7a14ba8dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Headers">
+      <UniqueIdentifier>{3ca0f341-7ee6-4515-b976-486bbf49502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Source">
+      <UniqueIdentifier>{eec19b8b-0e67-4166-85a9-f6fff41ca0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robot">
+      <UniqueIdentifier>{a10fe224-a4ff-4f28-bfe0-e311171dc6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robot\Headers">
+      <UniqueIdentifier>{d75b15e1-8bb5-402c-ac29-b46f6fa327df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robot\Source">
+      <UniqueIdentifier>{5c48f330-f01e-42bf-b970-e3543f3f1703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dynamixel.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Instruction.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Gestures.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RoboticRoot.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMain.cpp" />
+    <ClCompile Include="State.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformationState.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionState.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TraductionState.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GetterState.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect.cpp">
+      <Filter>Library\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Robotis.cpp">
+      <Filter>Robot\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dynamixel.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Instruction.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Gestures.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RoboticRoot.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GetterState.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionState.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationState.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TraductionState.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinect.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InTemplate.h">
+      <Filter>Library\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Robotis.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OutTemplate.h">
+      <Filter>Robot\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
